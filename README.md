@@ -4,5 +4,13 @@
 Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Polytech'Nice Sophia
 
 
-# Colocarina
-Borne domotique sans fil commandée par la musique d’un Ocarina. Différenciation des tâches en fonction des notes jouées.
+                                                 # Colocarina
+
+Description du Projet :
+
+Borne domotique sans fil commandé par la musique d’un Ocarina. Différenciations des tâches en fonction des notes jouées.
+Tâches : 
+    •	Allumer une lampe (intensité lumineuse ?)
+    •	Déverrouillage d’une porte
+    •	Annonce de l’heure par un réveil
+    •	Appel pour retrouver son téléphone
