@@ -1,4 +1,10 @@
-22 Décembre 2017
+# 12 Janvier 2018
+
+Lors de cette 2ème séance, nous avons fait une sorte de brainstorming en développant nos idées en nous concentrant sur ce que l'on doit commander, et comment cela fonctionnera. 
+De plus, nous avons regardé une vidéo en anglais (https://www.youtube.com/watch?v=1RzXoieos5Y), nous décrivant comment le projet pourra fonctionner. Dans la description de cette vidéo, les programmes et quelques composants nous sont donnés pour nous aider dans la conception du projet.
+Enfin, nous avons démarré la présentation du projet qui aura lieu à la fin du semestre.
+
+# 22 Décembre 2017
 
 Aujourd'hui nous avons élaboré notre projet autour d'une passion commune, la musique. 
 Cela correspond à une borne domotique sans fil commandé par la musique d’un Ocarina. 
