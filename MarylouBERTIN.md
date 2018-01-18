@@ -5,11 +5,13 @@ Durant la semaine nous avons réfléchis au marèriel necessaire et envoyé une 
 Nous nous sommes rendu compte que la carte arduino présenterait des probèmes de compatibilité avec le micro (port USB), de ce fait nous nous sommes orienté vers l'utisation d'une carte Rasperry PI 3 Wifi, plus adaptée grâce à ses ports USB et jack et la présence intrinsèque de Wifi.
 
 
+
 # 12 Janvier 2018
 # 2ème séance
 
 Pendant cette séance nous avons regardé une vidéo (https://www.youtube.com/watch?v=1RzXoieos5Y) décrivant le fonctionnement de la borne. Dans la description de la vidéo on a trouvé les codes pour la carte raspberry sous le logiciel Arduino et python ayant servit au projet, nous devrons donc déchiffrer et adapter ce code. On a aussi répertorié le materiel dont nous allons avoir besoin tel que la carte wifi ESP32.
 On a ensuite commencé le powerpoint à présenter à la fin du semestre. Commençant à dégrossir un planning et une répartition des tâches.
+
 
 
 # 22 Décembre 2017 
