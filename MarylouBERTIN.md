@@ -3,6 +3,7 @@
 
 Durant la semaine nous avons réfléchis au marèriel necessaire et envoyé une premère commande.
 Nous nous sommes rendu compte que la carte arduino présenterait des probèmes de compatibilité avec le micro (port USB), de ce fait nous nous sommes orienté vers l'utisation d'une carte Rasperry PI 3 Wifi, plus adaptée grâce à ses ports USB et jack et la présence intrinsèque de Wifi.
+Donc finalement nous brancherons notre micro USB à la carte Raspberry, et cette dernière sera alimentée par secteur. Le port jack nous servira à brancher une petite enceinte qui enverra un son de confirmation lorsque la tâche sera bien prise en compte. 
 
 
 
