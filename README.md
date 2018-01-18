@@ -14,3 +14,8 @@ Tâches :
 - Déverrouillage d’une porte
 - Annonce de l’heure par un réveil
 - Appel pour retrouver son téléphone
+
+# Contraintes décelées
+
+En réfléchissant à la conception de notre projet nous avons décelé plusieurs problèmes à résoudre.
+Tout d'abord le branchement du micro à l'arduino semble compliqué, cette dernière ne possédant pas de port USB. Nous pensons donc nous orienter sur l'utisation d'une carte Rasperry PI 3 Wifi, plus adaptée.
