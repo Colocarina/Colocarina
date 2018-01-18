@@ -1,3 +1,10 @@
+# 18 Janvier 2018
+# 3ème séance
+
+Durant la semaine nous avons réfléchis au marèriel necessaire et envoyé une premère commande.
+Nous nous sommes rendu compte que la carte arduino présenterait des probèmes de compatibilité avec le micro (port USB), de ce fait nous nous sommes orienté vers l'utisation d'une carte Rasperry PI 3 Wifi, plus adaptée grâce à ses ports USB et jack et la présence intrinsèque de Wifi.
+
+
 # 12 Janvier 2018
 # 2ème séance
 
