@@ -1,6 +1,8 @@
 # 18 Janvier 2018
 
 Après le choix des matériaux nécessaires, M. Masson nous a soulevé une interrogation, comment brancher notre micro sur l'Arduino ? En effet, la manière dont on l'avait imaginé n'était pas réaliste car il n'y aurait pas eu d'alimentation. Nous avons donc décidé de partir sur une carte Raspberry pi 3, équipé de ports usb où l'on peut brancher le micro, jack pour l'enceinte, micro usb pour l'alimentation ainsi qu'une carte wifi intégré. Ainsi, tous nos besoins seront centralisé en cette carte.
+Ensuite, nous avons commencé à conceptualiser le projet en nous intéressant aux différents branchements et spécifiant les matériaux nécessaires pour chaque fonction. 
+Enfin, nous avons continué la présentation du projet.
 
 # 12 Janvier 2018
 
