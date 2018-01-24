@@ -1,3 +1,7 @@
+# 23 Janvier 2018
+
+Aujourd'hui a eu lieu la présentation orale de notre projet. Nous avons donc présenté notre borne domotique à toute la classe et à la fin, M. Masson nous a conseillé qu'il fallait mieux se focaliser sur les différentes fonctions et la manière dont on enverra l'information aux différents modules, avant de chercher à maitriser la reconnaissance sonore. Nous avons donc matérialisé "un ocarina informatique", c'est à dire que la musique serait produite par un buzzer arduino dont les notes seraient gérés informatiquement et non pas par reconnaissance. Et en parallèle à cela, nous avons écouté les différents projets de nos camarades. 
+
 # 18 Janvier 2018
 
 Après le choix des matériaux nécessaires, M. Masson nous a soulevé une interrogation, comment brancher notre micro sur l'Arduino ? En effet, la manière dont on l'avait imaginé n'était pas réaliste car il n'y aurait pas eu d'alimentation. Nous avons donc décidé de partir sur une carte Raspberry pi 3, équipé de ports usb où l'on peut brancher le micro, jack pour l'enceinte, micro usb pour l'alimentation ainsi qu'une carte wifi intégré. Ainsi, tous nos besoins seront centralisé en cette carte.
