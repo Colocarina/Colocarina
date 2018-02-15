@@ -1,3 +1,7 @@
+# 07 Février 2018
+
+Durant cette heure et demi, nous avons fini notre "ocarina informatique" après avoir contré plusieurs soucis techniques et découvert la librairie Tone. Nous pourrons donc nous pencher sérieusement dès à présent sur les fonctions et la wifi.
+
 # 23 Janvier 2018
 
 Aujourd'hui a eu lieu la présentation orale de notre projet. Nous avons donc présenté notre borne domotique à toute la classe et à la fin, M. Masson nous a conseillé qu'il fallait mieux se focaliser sur les différentes fonctions et la manière dont on enverra l'information aux différents modules, avant de chercher à maitriser la reconnaissance sonore. Nous avons donc matérialisé "un ocarina informatique", c'est à dire que la musique serait produite par un buzzer arduino dont les notes seraient gérés informatiquement et non pas par reconnaissance. Et en parallèle à cela, nous avons écouté les différents projets de nos camarades. 
