@@ -1,3 +1,8 @@
+# 16 Mars 2018
+
+Avec Marylou, nous avons essayé de comprendre un peu plus le language d'Arduino (en gros C++) pour pouvoir coder notre programme principal qui va analyser les informations transmises par les boutons poussoires (c'est à dire les notes jouées) et ainsi selon les notes jouées à la suite, correspondre à une musique, et de ce fait, appliquer une tâche. 
+Nous avons donc commencé, mais nous nous sommes heurtés à plusieurs complications ce qui a ralenti l'avancée du programme. Au final, nous avons réussi à programmer la reconnaissance des notes et le fait de retourner une valeur qui pourra être analysé dans notre prochaine fonction, celle qui comprendra la musique jouée et qui renverra une fonction.
+
 # 07 Février 2018
 
 Durant cette heure et demi, nous avons fini notre "ocarina informatique" après avoir contré plusieurs soucis techniques et découvert la librairie Tone. Nous pourrons donc nous pencher sérieusement dès à présent sur les fonctions et la wifi.
