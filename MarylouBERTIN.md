@@ -1,3 +1,9 @@
+# 23 Janvier 2018
+# 4ème séance
+
+Durant cette séance nous avons présenté notre projet à l'oral. M Masson nous a conseillé de ne pas trop s'attarder pour l'instant sur la reconnaissance sonore pour plutôt se focaliser sur la programmation. Nous avons donc mis en oeuvre un ocarina électronique. Grâce auquel la reconnaissance sonore n'est pas mis en oeuvre, les notes sont reconnues en fonction des boutons poussoirs enfoncés. Le son produit par le buzzer est juste pour nous représenter ce qu'il se passe.
+
+
 # 18 Janvier 2018
 # 3ème séance
 
