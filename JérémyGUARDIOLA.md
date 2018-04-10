@@ -1,3 +1,15 @@
+# 9 Avril 2018
+
+Après avoir reçu la carte Raspberry Pi 3, nous avons essayé de la faire marcher avec l'écran que M. Masson nous a fourni. Malheureusement, malgré avoir suivi plusieurs différents tutoriels les uns après les autres, cela ne nous donnait toujours rien. Nous avons donc contacté d'autres PeiP2 utilisant une carte RaspBerry qui ont reussi à nous mettre sur la voie de la réussite car le soir même, la carte fonctionnait. Il ne reste plus qu'à tester le programme que nous possédons déjà. De plus, nous avons fait l'inventaire en détail de tout le matériel nécessaire à la fabrication de chaque module.
+
+# 5 Avril 2018
+
+Ce jour-ci fut le jour de présentation de mi-parcours. A vrai dire, vu notre retard du à une accumulation de problème de programation, nous n'avions pas grand chose à dire. Durant cette séance, on a essayé de continuer un programme qui stockerait toutes les données dans des tableaux, en vain. On a finalement decidé de s'arrêter pour réfléchir et se demander si ce que l'on fesait était nécessaire. Nous nous sommes rendus compte que nous perdions un maximum de temps sur un objet sensé être temporaire dans notre projet. On en a discuté avec M. Ferrero pour finaler décider de repartir sur notre projet initial, la reconnaissance sonore.
+
+# 29 Mars 2018
+
+Après avoir réussi la séance précédente à programmer la reconnaissance des notes, il nous fallait réussir à les stocker dans un endroit durant une certaine durée (donc inclure la notion de temps dans le programme), à en extraire uniquement les notes utiles puis à comparer ces données à d'autres où serait stocké les musiques. Mais la notion de tableau dynamique est apparu beaucoup plus complexe (surtout impossible sachant notre niveau informatique), ce qui nous a pris tout le temps de la séance après avoir régler le problème de temps.
+
 # 16 Mars 2018
 
 Avec Marylou, nous avons essayé de comprendre un peu plus le language d'Arduino (en gros C++) pour pouvoir coder notre programme principal qui va analyser les informations transmises par les boutons poussoires (c'est à dire les notes jouées) et ainsi selon les notes jouées à la suite, correspondre à une musique, et de ce fait, appliquer une tâche. 
