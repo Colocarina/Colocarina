@@ -1,30 +1,37 @@
+# 1er Juin 2018
+# Fin du projet
+
+Aujourd'hui nous avon procédé aux derniers réglages de notre projet, à la finalisation du rapport et de notre présentation orale. Ce projet a été très enrichissant et nous a appris à travailler en groupe et en autonomie. De plus il est intéressant de pouvoir travailler sur un sujet que l'on a choisit par soi même.
+
 # 30 Mai 2018
 
 Notre projet est fonctionnel (pour les deux modules fabriqués: lampe et verrou) lorsqu'il est branché à un ordinateur. Mais les cartes wifi ne sont pas autonomes et se déconnectent du mqtt lorsqu'elles sont seules. Nous avons trouvé la solution à ce problème, il faut brancher les servo moteurs sur le 3V3 de l'esp et non sur le 5V.
+A présent notre projet fonctionne, les esp se connectent correctemement au Wifi et lorsque l'on joue une mélodie les servo moteurs agissent.
 
-# 28 Mai 2018
+# 24 Mai 2018
 
 Nous avons été au FabLab aujourd'hui et finit de créer nos deux modules (lampe et verrou). Il ne reste plus qu'à réussir à faire fonctionner les esp32 pour qu'elles fassent bouger les servo moteurs fixés dans les modules. (voir photos dans le rapport)
+Nous avons aussi réussis à faire fonctionner le programme pyhton sur la raspberry. Lorsque l'on branche le micro et que l'on produit un son, si la note est reconnue elle est affichée et sinon la phrase "Pardon? Je n'ai pas bien saisis" est affichée. Lorsque l'on joue la mélodie d'une fonction, le nom de la mélodie est affichée. Il ne reste donc plus qu'à réussir à faire fonctionner les cartes Wifi.
 
-# 25 Mai 2018
+# 19 Mai 2018
 
-Nous nous sommes résolu à arrêter de s'obstiner à utiliser la raspberry pour téléverser sur les esp et après avoir essayer de téléverser le programme .ino sur les esp depuis un ordinateur, tout fonctionne à merveille. Le concept du projet est donc d'utiliser le fichier .ino sur les esp32 et le fichier .py sur la raspberry. Un ami m'a aidé à comprendre le concept d'une carte wifi, il faut connecter les composant à relier entre eux au même réseau wifi pour qu'ils puissent communiquer. Nous avons aussi réussis à faire fonctionner le mqtt grâce à la commande sudo /etc/init.d/mosquitto stop   . En effet le broker mqtt se lance au démarrage de l'ordinateur et lorsque l'on veut le relancer depuis le terminal, cela provoque une erreur.
+Nous nous sommes résolu à arrêter de s'obstiner à utiliser la raspberry pour téléverser sur les esp. Après avoir essayé de téléverser le programme .ino sur les esp depuis un ordinateur, tout fonctionne à merveille. Le concept du projet est donc d'utiliser le fichier .ino sur les esp32 et le fichier .py sur la raspberry. Un ami m'a aidé à comprendre le concept d'une carte wifi, il faut connecter les composants à relier entre eux au même réseau wifi pour qu'ils puissent communiquer. Nous avons aussi réussis à faire fonctionner le mqtt grâce à la commande sudo /etc/init.d/mosquitto stop   . En effet le broker mqtt se lance au démarrage de l'ordinateur et lorsque l'on veut le relancer depuis le terminal, cela provoque une erreur.
 
 # 13 Mai 2018
 
-Le protocole MQTT ne fonctionne pas, nous avons une erreur d'IPv6. De plus Ubuntu a planté (car nous avons beaucoup utilisé la Raspberry pendant ce weekend) donc nous avons dû tout réinstaller. De plus les librairies ESP32 ne fonctionnent toujours pas, nous ne savons pas vraiment comment nous allons réussir à lancer les programmes. Nous ne savons pas vraiment comment utiliser le  Wifi (quel wifi utiliser, la raspberry doit elle servir de Hotspot, ou est-ce les esp qui créent le Wifi). 
+Le protocole MQTT ne fonctionne pas, nous avons une erreur d'IPv6 (sans savoir vraiment d'où cela vient). De plus Ubuntu a planté (car nous avons beaucoup utilisé la Raspberry pendant ce weekend qui a sûrement surchauffé) donc nous avons dû tout réinstaller. De plus les librairies ESP32 ne fonctionnent toujours pas, nous ne savons pas vraiment comment nous allons réussir à lancer les programmes. Nous ne savons pas vraiment comment utiliser le  Wifi (quel wifi utiliser, la raspberry doit elle servir de Hotspot, ou est-ce les esp qui créent le Wifi). Il va nous falloir approfondire tout cela et demander conseil.
 
 # 29 Avril 2018
 
-Nous continuons a visionner la vidéo d'explication disponible sur youtube du projet Zelda Home Automation et recherchons à présent à faire fonctionner le protocole MQTT (mosquitto) sur la Raspberry. Nous épluchons les sites internet pour comprendre ce principe de fonctionnement mais des erreurs nous sont affichées sur le terminal. De plus Firefox ne fonctionne plus sur la Raspberry et en ayant essayer toutes les solutions qu'on a trouvé sur internet la dernière solution qui s'offre à nous est de réinstaller Ubuntu. Firefox nous étant utile pour rechercher des packages, plus pratique qu'un terminal.
+Nous continuons a visionner la vidéo d'explication disponible sur youtube du projet Zelda Home Automation et recherchons à présent à faire fonctionner le protocole MQTT (mosquitto) sur la Raspberry. Nous épluchons les sites internet pour comprendre ce principe de fonctionnement mais des erreurs nous sont affichées sur le terminal donc cela ne paraît pas encore vriament fonctionnel. De plus Firefox ne fonctionne plus sur la Raspberry et après avoir essayé toutes les solutions qu'on a trouvé sur internet la dernière solution qui s'offre à nous est de réinstaller Ubuntu. Firefox nous étant utile pour rechercher des packages, plus pratique qu'un terminal.
 
 # 15 Avril 2018
-L'avancée du projet est ralentie par notre emploi du temps chargé, notre problème actuel est de faire fonctionner arduino IDE sur la raspberry mais nous avons des problèmes de bibliothèque . En effet nous avons installé la bibliothèque expressif/esp32 (disponible sur GitHub) mais lorsque nous téléversons sur l'esp32 une erreur de fichier manquant apparaît et nous ne savons pas comment remédier à ce problème. Nous cherchons des solutions sur internet en épluchant tous les sites en espérant trouver une solution efficace.
+L'avancée du projet est ralentie par notre emploi du temps chargé, notre problème actuel est de faire fonctionner arduino IDE sur la raspberry mais nous avons des problèmes de bibliothèque . En effet nous avons installé la bibliothèque expressif/esp32 (disponible sur GitHub https://github.com/espressif/arduino-esp32) mais lorsque nous téléversons sur l'esp32 une erreur de fichier manquant apparaît et nous ne savons pas comment remédier à ce problème. Nous cherchons des solutions sur internet en épluchant tous les sites en espérant trouver une solution efficace.
 
 # 09 Avril 2018
 # 9ème séance
 
-Nous avons reçu notre carte Raspberry et commencé à essayer de s'en servir. Cela paraît encore compliqué, même en suivant les tutoriels impopssible d'avoir un affichage sur l'écran LCD. nous allons donc demander de l'aide à des amis se servant aussi dde Raspberry dans leurs projets. Avec leur aide nous avons réussis à avoir ubuntu sur notre raspberry et d'afficher le bureau sur l'écran d'une télévision, mais par sur l'écran LCD. Vu les lignes blanches affichées par l'écran nous en déduisons que l'écran doit être défecteux. Nous avons donc commandé un nouvel écran à M Masson. En attendant la réception de cet écran nous travaillons sur l'écran de télévison.
+Nous avons reçu notre carte Raspberry et commencé à essayer de nous en servir. Cela paraît encore compliqué, même en suivant les tutoriels impopssible d'avoir un affichage sur l'écran LCD. nous avons donc demandé de l'aide à des amis de PeiP2 se servant aussi de Raspberry dans leurs projets. Avec leur aide nous avons réussis à avoir ubuntu sur notre raspberry et d'afficher le bureau sur l'écran d'une télévision, mais par sur l'écran LCD. Vu les lignes blanches affichées par l'écran nous en déduisons que l'écran doit être défecteux. Nous avons donc commandé un nouvel écran à M Masson. En attendant la réception de cet écran nous travaillons sur l'écran de télévison.
 
 # 05 Avril 2018
 # 8ème séance
