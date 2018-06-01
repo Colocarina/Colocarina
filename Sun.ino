@@ -1,9 +1,6 @@
 /*
-Stolen from the "mqtt_esp8266" example from PubSubClient library,
-so probably some vestigial stuff like publishing on "outTopic".
-Lots of room for improvement, esp power usage!
-For each song receiver module the appropriate song must be
-hardcoded in char song AND client name changed on line 153.
+Programme emprunté du projet Zelda Home Automation disponible sur GitHub
+Programme téléversé sur la carte ESP32 du module Lampe
 */
 #include <WiFi.h> //ESP32
 #include <PubSubClient.h> 
