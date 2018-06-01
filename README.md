@@ -24,14 +24,21 @@ Les taches possibles de notre borne domotique sont allumer une lampe et déverro
 # Principe de fonctionnement : 
 
 La borne est constituée d'une carte Raspberry PI 3 servant de broker MQTT (mode de communication fonctionnant sur un principe de publish/subscribe). Cette dernière analyse le son joué par l'ocarina à l'aide d'un microphone branché en USB et du programme python AnalyseAudio.py. 
+
 Les modules sont constitués principalement d'une carte Wifi ESP32 et de servomoteurs. La carte Wifi reçoit les informations de la Raspberry et agit en conséquence. Les programmes téléversés dans les ESP32 sont respectivement Sun.ino pour la carte du module Lampe et Zelda.ino pour la carte du module Verrou.
+
 Raspberry et ESP32 communiquent par publications et souscriptions. La Raspberry publie sur l'ESP32 le numéro de la mélodie qu'elle a identifié et l'ESP32 souscrit à cette publication. Le programme .ino effectue alors la fonction correspondant à ce numéro.
 
 # Sources du projet : 
 
 Projet réalisé par Allen Pan
+
   Lien vers les sources de nos programmes :
+  
 https://github.com/Sufficiently-Advanced/ZeldaHomeAutomation
+
   Lien vers des vidéos explicatives :
+  
 https://www.youtube.com/watch?v=glZnkpIDWSE
+
 https://www.youtube.com/watch?v=1RzXoieos5Y
