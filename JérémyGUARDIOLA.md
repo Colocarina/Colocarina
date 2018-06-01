@@ -1,3 +1,37 @@
+# 01 Juin 
+
+Aujourd'hui, c'est le jour de la présentation finale. En fait les derniers tests et les derniers prératifs, on finiole le rapport et on a fait le diaporama. Tout fonctionnait parfaitement mais lors de la démonstration devant tout le monde, le test n'a pas marché. Beaucoup de déceptions mais on sait que ça marche donc c'est le principal ! Très heureux d'avoir fait ce projet, c'est ce qui m'a le plus plu dans cette PeiP. Merci à vous !
+Bonne continuation.
+
+# 31 Mai 2018
+
+Notre projet est presque au point, il fonctionne quand les modules sont branchés à un ordinateur. Mais les cartes wifi n'arrivent pas à rester connectés. Au final, après de nombreux essais et incompréhension, nous avons trouvé qu'il fallait brancher les servo-moteurs sur l'entrée 3,3Volts. Ainsi tout fonctionne parfaitement !
+
+# 26 Mai 2018
+
+Aujourd'hui, nous avons essayé de faire fonctionner le programme, certaines choses ont marchés d'autres non. On a réussi à lancer le programme python ainsi que la reconnaissance, ce qui nous a permis de lancer la détection des notes. Malgré des fréquences pas forcément précises, la reconnaissance des musiques fonctionne à merveille, cependant les modules ne s'activent toujours pas, malgré la connexion établi.
+
+# 24 Mai 2018
+
+Nous nous sommes rendus au Fablab pour construire nos deux modules : la lampe et le verrou. Pour la lampe nous avons juste collé la lampe et un servo-moteur sur une plaque à une certaine distance en plus de la fabrication de la baguette reliant les deux. Pour le verrou,, nous avons fait une découpe laser pour fabriquer une boite dans laquelle son collé de manière opposé le verrou et le servo-moteur, sans oublier la fente pour le loquet.
+Après test, les modules fonctionnent à merveille. Il ne manque plus qu'à les faire fonctionner par transmission wifi.
+
+# 19 Mai 2018
+
+Ce jour là a été un grand jour. On a jamais autant avancé que précédemment. On s'est dit qu'il fallait arrêter avec la carte raspberry pour essayer de rendre quelque chose, et en le faisant sur l'ordinateur tout à fonctionné ! Eureka ! On a compris qu'il fallait donc téléverser le fichier Arduino sur les esp32 depuis un ordinateur et le fichier python sur la carte raspberry. Nous nous sommes fait aidé pour comprendre un peu le fonctionnement de toutes ces cartes et marylou a réussi à faire fonctionner le mqtt. On avance vers la fin (heureusement c'est bientôt le rendu du projet).
+
+# 13 Mai 2018
+
+Bon, comment dire on ne s'en sort toujours pas. Des problèmes à répétition sur le mqtt, la carte esp32 ne veut toujours pas fonctionner, pourtant on n'a passé le weekend à travailler ce projet mais en vain, je n'ai pas l'impression d'avancer c'est frustrant. A coté de ça, je me suis occupé d'enrengister les fréquences correspondant à mon ocarina et de créer des musiques renvoyant vers les fonctions. De plus, j'ai nettoyé un peu le programme en ne gardant que ce qui nous sera utile.
+
+# 29 Avril 2018
+
+Nous avons essayé de résoudre notre problème en faisant fonctionner le protocole MQTT sur la Raspberry mais les erreurs s'enchainent. Au bout du compte firefox a crashé encore une fois et on a été obligé de rebooter la carte raspberry. On perd beauvoup de temps sur des problèmes pas super utiles, c'est dommage. 
+
+# 15 Avril 2018
+
+Maintenant, un nouveau problème est survenu ! Nous essayons de faire fonctionner Arduino ainsi que le programme sur la raspberry mais il y a un problème de fichiers manquants. Nous avons pourtant installer toutes les bibliothèques nécessaires et en particulier celle de la carte ESP32. Nous esperons trouver une solution rapidement.
+
 # 9 Avril 2018
 
 Après avoir reçu la carte Raspberry Pi 3, nous avons essayé de la faire marcher avec l'écran que M. Masson nous a fourni. Malheureusement, malgré avoir suivi plusieurs différents tutoriels les uns après les autres, cela ne nous donnait toujours rien. Nous avons donc contacté d'autres PeiP2 utilisant une carte RaspBerry qui ont reussi à nous mettre sur la voie de la réussite car le soir même, la carte fonctionnait. Il ne reste plus qu'à tester le programme que nous possédons déjà. De plus, nous avons fait l'inventaire en détail de tout le matériel nécessaire à la fabrication de chaque module.
