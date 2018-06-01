@@ -7,8 +7,23 @@ Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Po
 
 # Description du Projet :
 
-Borne domotique sans fil commandé par la musique d’un Ocarina. Différenciations des tâches en fonction des notes jouées.
+Borne domotique sans fil commandé par la musique d’un Ocarina. Différenciations des tâches en fonction des notes jouées. 
 
-Tâches : 
-- Allumer une lampe
-- Déverrouillage d’une porte
+Les taches possibles de notre borne domotique sont allumer une lampe et déverrouiller une porte
+
+# Materiel utilisé : 
+
+- Raspberry PI 3 + écran LCD + clavier + souris
+- ESP 32
+- Ocarina
+- Microphone branchable en USB
+- Servo-moteur
+- Lampe, verrou et piles
+
+
+# Principe de fonctionnement : 
+
+La borne est constituée d'une carte Raspberry PI 3 servant de broker MQTT (mode de communication fonctionnant sur un principe de publish/subscribe). Cette dernière analyse le son joué par l'ocarina à l'aide d'un microphone branché en USB et du programme python AnalyseAudio.py. 
+Les modules sont constitués principalement d'une carte Wifi ESP32 et de servomoteurs. La carte Wifi reçoit les informations de la Raspberry et agit en conséquence. Les programmes téléversés dans les ESP32 sont respectivement Sun.ino pour la carte du module Lampe et Zelda.ino pour la carte du module Verrou.
+Raspberry et ESP32 communiquent par publications et souscriptions. La Raspberry publie sur l'ESP32 le numéro de la mélodie qu'elle a identifié et l'ESP32 souscrit à cette publication. Le programme .ino effectue alors la fonction correspondant à ce numéro.
+
