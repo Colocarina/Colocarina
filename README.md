@@ -11,6 +11,8 @@ Borne domotique sans fil commandé par la musique d’un Ocarina. Différenciati
 
 Les taches possibles de notre borne domotique sont allumer une lampe et déverrouiller une porte
 
+Une vidéo présentant le fonctionnement du projet est disponible dans les documents (Expérimentation.MOV)
+
 # Materiel utilisé : 
 
 - Raspberry PI 3 + écran LCD + clavier + souris
