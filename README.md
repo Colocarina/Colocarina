@@ -14,7 +14,7 @@ Les taches possibles de notre borne domotique sont allumer une lampe et déverro
 # Materiel utilisé : 
 
 - Raspberry PI 3 + écran LCD + clavier + souris
-- ESP 32
+- Carte Wifi ESP 32
 - Ocarina
 - Microphone branchable en USB
 - Servo-moteur
