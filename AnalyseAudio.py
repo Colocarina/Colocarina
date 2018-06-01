@@ -1,6 +1,6 @@
-#Tone detection shamelessly stolen from:
-#https://benchodroff.com/2017/02/18/using-a-raspberry-pi-with-a-microphone-to-hear-an-audio-alarm-using-fft-in-python/
-#!/usr/bin/env python
+#Programme emprunté du projet Zelda Home Automation disponible sur GitHub
+#Programme lancé sur la raspberry qui permet la reconnaissance audio
+
 import pyaudio
 from numpy import zeros,linspace,short,fromstring,hstack,transpose,log
 from scipy import fft
