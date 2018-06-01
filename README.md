@@ -12,4 +12,5 @@ Borne domotique sans fil commandé par la musique d’un Ocarina. Différenciati
 Tâches : 
 - Allumer une lampe (intensité lumineuse ?)
 - Déverrouillage d’une porte
+
 /home/user/Téléchargements/IMG_3256.jpg
