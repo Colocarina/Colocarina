@@ -10,7 +10,5 @@ Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Po
 Borne domotique sans fil commandé par la musique d’un Ocarina. Différenciations des tâches en fonction des notes jouées.
 
 Tâches : 
-- Allumer une lampe (intensité lumineuse ?)
+- Allumer une lampe
 - Déverrouillage d’une porte
-
-/home/user/Téléchargements/IMG_3256.jpg
